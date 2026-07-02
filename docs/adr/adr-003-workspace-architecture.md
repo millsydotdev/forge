@@ -6,7 +6,7 @@
 
 ## Decision
 
-TennoDex uses a `WorkspaceManager` as the single authority for the editing session, with sub-managers for documents, projects, tabs, command history, sessions, and search. All inter-manager communication flows through a `WorkspaceEventBus`.
+Forge uses a `WorkspaceManager` as the single authority for the editing session, with sub-managers for documents, projects, tabs, command history, sessions, and search. All inter-manager communication flows through a `WorkspaceEventBus`.
 
 ## Why BuildDocument and BuildFile are separate
 

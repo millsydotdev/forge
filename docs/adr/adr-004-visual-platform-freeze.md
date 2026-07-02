@@ -6,7 +6,7 @@
 
 ## Decision
 
-The TennoDex Visual Platform is declared feature complete as of Milestone 18.9.
+The Forge Visual Platform is declared feature complete as of Milestone 18.9.
 
 ## Scope
 

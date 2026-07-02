@@ -68,7 +68,7 @@
   "devDependencies": {
     "@overwolf/ow-electron": "latest",
     "@overwolf/ow-electron-builder": "latest",
-    "@overwolf/ow-electron-packages-types": "^0.0.5",
+    "@overwolf/ow-electron-packages-types": "^1.1.4",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@types/react": "^18.2.0",

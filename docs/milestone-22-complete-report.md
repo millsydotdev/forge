@@ -55,11 +55,11 @@ No functionality changed. No architecture changed. No engine or provider modific
 | `shortName` | `'TDX'` | `'FRG'` |
 | `copyright` | `TennoDex` | `Forge` |
 | `author` | `TennoDex Team` | `Forge Team` |
-| `website` | `https://tennodex.app` | `https://forgebuild.app` |
-| `repository` | `github.com/tennodex/tennodex` | `github.com/forgebuild/forge` |
-| `discord` | `discord.gg/TVmaw9354z` | `discord.gg/forgebuild` |
-| `issues` | `github.com/tennodex/tennodex/issues` | `github.com/forgebuild/forge/issues` |
-| `docs` | `docs.tennodex.app` | `docs.forgebuild.app` |
+| `website` | `https://tennodex.app` | `https://millsydotdev.app` |
+| `repository` | `github.com/tennodex/tennodex` | `github.com/millsydotdev/forge` |
+| `discord` | `discord.gg/TVmaw9354z` | `discord.gg/millsydotdev` |
+| `issues` | `github.com/tennodex/tennodex/issues` | `github.com/millsydotdev/forge/issues` |
+| `docs` | `docs.tennodex.app` | `docs.millsydotdev.app` |
 | `storagePrefix` | `'tdx_'` | `'frg_'` |
 | `oldStoragePrefix` | `'tennodex_'` | `'tdx_'` |
 | `legacyPrefixes` | (new) | `['tennodex_']` |

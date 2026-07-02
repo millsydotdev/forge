@@ -10,7 +10,7 @@
 ## Reporting a Vulnerability
 
 If you discover a security vulnerability in Forge, please report it by
-opening an issue at https://github.com/forgebuild/forge/issues with the
+opening an issue at https://github.com/millsydotdev/forge/issues with the
 label `security`. Do **not** open a public issue for critical vulnerabilities.
 
 We will acknowledge receipt within 48 hours and provide a timeline for

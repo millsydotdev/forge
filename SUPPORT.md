@@ -2,8 +2,8 @@
 
 ## Getting Help
 
-- **Documentation**: https://docs.forgebuild.app
-- **Issue Tracker**: https://github.com/forgebuild/forge/issues
+- **Documentation**: https://docs.millsydotdev.app
+- **Issue Tracker**: https://github.com/millsydotdev/forge/issues
 - **Discord**: https://discord.gg/TVmaw9354z
 
 ## Before Opening an Issue
@@ -15,7 +15,7 @@
 
 ## Reporting Bugs
 
-Open an issue at https://github.com/forgebuild/forge/issues with:
+Open an issue at https://github.com/millsydotdev/forge/issues with:
 
 - Steps to reproduce
 - Expected behaviour

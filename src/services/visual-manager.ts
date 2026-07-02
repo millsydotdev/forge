@@ -17,11 +17,11 @@ export const Brand = {
   copyright: `© ${new Date().getFullYear()} Forge`,
   author: 'millsydotdev',
 
-  website: 'https://forgebuild.app',
-  repository: 'https://github.com/forgebuild/forge',
+  website: 'https://github.com/millsydotdev/forge',
+  repository: 'https://github.com/millsydotdev/forge',
   discord: 'https://discord.gg/TVmaw9354z',
-  issues: 'https://github.com/forgebuild/forge/issues',
-  docs: 'https://github.com/forgebuild/forge/tree/main/docs',
+  issues: 'https://github.com/millsydotdev/forge/issues',
+  docs: 'https://github.com/millsydotdev/forge/tree/main/docs',
 
   storagePrefix: 'frg_',
   oldStoragePrefix: 'tdx_',

@@ -285,7 +285,7 @@ No OS-specific code, no platform conditionals, no native module dependencies. El
 ### Artifact List for Release
 
 ```
-- Source: forgebuild/forge v1.0.0-rc.1 (Git tag)
+- Source: millsydotdev/forge v1.0.0-rc.1 (Git tag)
 - Build: npm run build
 - Windows: npm run build:ow-electron (NSIS installer)
 - Documentation: docs/ directory (51 files, 751 KB)
@@ -323,7 +323,7 @@ See README.md for platform-specific instructions.
 
 ## Quick build
 
-git clone https://github.com/forgebuild/forge.git
+git clone https://github.com/millsydotdev/forge.git
 cd forge
 npm ci
 npm run build

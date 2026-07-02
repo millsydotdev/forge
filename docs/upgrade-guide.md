@@ -31,7 +31,7 @@ If you used the prototype "TennoDex" application, your data will be automaticall
 Simply clone and build:
 
 ```
-git clone https://github.com/forgebuild/forge.git
+git clone https://github.com/millsydotdev/forge.git
 cd forge
 npm ci
 npm run build

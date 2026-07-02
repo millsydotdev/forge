@@ -150,7 +150,7 @@ Forge v1.0.0-rc.1 — Release Candidate
 ### Recommended Artifact List
 
 ```
-📦 Source:        github.com/forgebuild/forge  (tag: v1.0.0-rc.1)
+📦 Source:        github.com/millsydotdev/forge  (tag: v1.0.0-rc.1)
 📦 Windows:       forge-1.0.0-rc.1-win-x64.exe  (NSIS installer)
 📦 Windows (port): forge-1.0.0-rc.1-win-x64.zip
 📦 macOS:         forge-1.0.0-rc.1.dmg           (requires verification)

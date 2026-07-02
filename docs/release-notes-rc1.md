@@ -46,7 +46,7 @@ See `CHANGELOG.md` for the full history.
 ## Installation
 
 ```
-git clone https://github.com/forgebuild/forge.git
+git clone https://github.com/millsydotdev/forge.git
 cd forge
 npm ci
 npm run build

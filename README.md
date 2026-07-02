@@ -1,8 +1,13 @@
 # Forge - Warframe Build Planner
 
+[![CI](https://github.com/millsydotdev/forge/actions/workflows/ci.yml/badge.svg)](https://github.com/millsydotdev/forge/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/millsydotdev/forge)](LICENSE)
+[![GitHub release](https://img.shields.io/github/v/release/millsydotdev/forge)](https://github.com/millsydotdev/forge/releases)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 A professional theorycrafting tool for Warframe. Plan, calculate, and share complete builds with accurate math.
 
-![Forge Screenshot](docs/screenshot.png)
+![Forge Screenshot](assets/app/screen.png)
 
 ## Features
 
@@ -53,29 +58,33 @@ npm run start
 
 ## Architecture
 
+Forge uses a VS Code-style workspace layout with three main panels.
+
 ```
-WorkspaceShell (3-panel)
-├── Header: build name, MR, save/load, share/import
-├── Slot tabs: Warframe / Primary / Secondary / Melee / Companion / ...
-├── LibraryPanel (left, collapsible)
-│   ├── Mods → ModLibraryPanel (search, filter, polarity, owned)
-│   ├── Weapons → WeaponLibraryPanel (slot tabs)
-│   ├── Warframes
-│   ├── Arcanes
-│   ├── Enemies → EnemyLabPanel
-│   └── Community → PrebuiltLibrary
-├── CenterSurface (center)
-│   └── Mod grid, exilus, aura, arcane, shards
-└── RightAnalysis (right)
-    └── StatsHUD (warframe, abilities, companion, weapons, enemy, breakdowns)
+WorkspaceShell
+├── LeftSidebar (equipment library, enemies)
+├── CenterWorkspace (mod grids, arcane/shards, helminth)
+├── RightInspector (StatsHUD, breakdown explorer)
+├── BottomDrawer (mod/weapon/arcane library)
+├── StatusBar (calculating indicator, health)
+└── Modal system (Riven editor, history, comparison, command palette)
 ```
+
+### Visual Platform
+
+All visual rendering flows through a unified system:
+- **VisualManager** — Brand, Theme, Tokens, Assets, CDN, Placeholders
+- **PresentationModel** — Standard entity presentation for items
+- **CardRenderer** — Universal card rendering
+- **RichTooltip** — Diablo-style item tooltips
+- **SkeletonLoader** — Shimmer loading states
 
 ### State Management (Zustand)
 
 - `buildStore` — full build state (wf, weapons, companion, helminth, shards, loadouts, MR, arcanes, focus, enemy, result)
 - `libraryStore` — item catalogs (mods, weapons, warframes, arcanes, companions)
 - `uiStore` — activeSlot, inspectorMod, importText, toast, modal, tabs
-- `projectStore` — CRUD shell (future)
+- `projectStore` — CRUD shell for saved builds
 
 Complex actions live in `useBuildPlannerStore` hook (effects, IPC submission, enrichment).
 
@@ -85,7 +94,22 @@ Complex actions live in `useBuildPlannerStore` hook (effects, IPC submission, en
 buildStore.state → IPC (calculateBuild) → main process → stat-processor → CalculatedStats → UI
 ```
 
-Main process runs `@wfcd/items` + custom stat processor. Renderer receives typed `CalculatedStats`.
+Main process runs `@wfcd/items` + custom stat processor with systems for:
+- Ability damage, effect engine, incarnon, overguard, shield-gating
+
+### Provider Framework
+
+Forge supports data providers for synchronizing with external sources:
+- Overwolf provider (player inventory sync)
+- Session manager, player event bus, player timeline
+
+### Architecture Decisions
+
+Key decisions are recorded as ADRs in [docs/adr/](docs/adr/):
+- ADR-001: Provider Architecture
+- ADR-002: Synchronization Rules  
+- ADR-003: Workspace Architecture
+- ADR-004: Visual Platform Freeze
 
 ## Build Codec (`tndx1:`)
 
@@ -113,19 +137,21 @@ Fetches latest from `@wfcd/items` → `src/data/game-data.json` (items, warframe
 
 ## Development
 
-- **Branch**: `main` protected, PR required
+- **Branch**: `master` protected, PR required with review
 - **Precommit**: `lint-staged` (eslint --fix + prettier)
-- **Deps**: `dependabot.yml` weekly updates
+- **Deps**: `dependabot.yml` weekly npm updates
 - **Node**: 20.x (CI + local)
+- **CI gates**: lint → typecheck → test → build (Ubuntu) + E2E (Windows) + NSIS package
 
 ## Tech Stack
 
-- Electron 21 (via `@overwolf/ow-electron`)
+- Electron (via `@overwolf/ow-electron`)
 - React 18 + TypeScript 4.9 (strict)
-- Zustand (state)
+- Zustand 5 (global state)
 - Vitest (unit), Playwright (E2E)
 - Webpack 5 (3 targets: main/preload/renderer)
 - Dexie (IndexedDB for owned items + builds)
+- `@wfcd/items` + `@wfcd/mod-generator` (official Warframe data)
 
 ## License
 

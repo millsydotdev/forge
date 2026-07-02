@@ -4,7 +4,7 @@ import type { CalcBreakdown } from '../../../engine/calc-breakdown';
 import { STAT_DISPLAY, formatStatValue, isStatModified, RESISTANCE_DISPLAY } from '../data/stat-display';
 import { StatRow } from './stat-row';
 
-export function DynamicStatsSection(stats: CalculatedStats, options?: { onStatClick?: (stat: string) => void }): JSX.Element | null {
+export function DynamicStatsSection(stats: CalculatedStats, options?: { onStatClick?: (stat: string) => void }): React.JSX.Element | null {
   const entries: { key: string; def: import('../data/stat-display').StatDisplayDef; value: number }[] = [];
   const statsRecord = stats as unknown as Record<string, number | undefined>;
 

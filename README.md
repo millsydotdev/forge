@@ -1,8 +1,8 @@
-# TennoDex — Warframe Build Planner
+# Forge - Warframe Build Planner
 
 A professional theorycrafting tool for Warframe. Plan, calculate, and share complete builds with accurate math.
 
-![TennoDex Screenshot](docs/screenshot.png)
+![Forge Screenshot](docs/screenshot.png)
 
 ## Features
 

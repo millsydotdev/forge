@@ -1,4 +1,4 @@
-# TennoDex — Warframe Build Planner
+# Forge — Warframe Build Planner
 
 **Quick commands**
 ```

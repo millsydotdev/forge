@@ -7,6 +7,8 @@
 
 A professional theorycrafting tool for Warframe. Plan, calculate, and share complete builds with accurate math.
 
+> **Placeholder image** — Screenshot pending final UI polish.
+
 ![Forge Screenshot](assets/app/screen.png)
 
 ## Features

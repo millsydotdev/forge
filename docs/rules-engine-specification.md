@@ -1,4 +1,4 @@
-# TennoDex Rules Engine — Complete Warframe Mathematical Specification
+# Forge Rules Engine — Complete Warframe Mathematical Specification
 
 **Date:** 2 July 2026  
 **Status:** RESEARCH PHASE — Blueprint for Implementation  

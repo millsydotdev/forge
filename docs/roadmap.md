@@ -1,4 +1,4 @@
-# TennoDex / TennoCalc — Roadmap
+# Forge — Roadmap
 
 ## Quick commands
 ```
@@ -9,31 +9,22 @@ npm run typecheck          # tsc --noEmit
 npm run test               # vitest run
 ```
 
-## Progress
+## Completed Milestones
 
 | Phase | Description | Status |
 |-------|-------------|--------|
-| P1 | Polarity & Capacity | ✅ |
-| P2 | UI Overhaul (3-column, ModCard, dark theme) | ✅ |
-| P1–P5 | Rebuild: Zustand stores, WorkspaceShell, LibraryPanel, EnemyLab, PrebuiltLibrary | ✅ |
-| P3 | Set Bonuses | ❌ |
-| P4 | Riven Mods | ❌ |
-| P5 | Helminth | ❌ |
-| P6 | Exalted Weapons | ❌ |
-| P7 | Companions | 🔶 |
-| P8 | Primer & Condition Overload | 🔶 |
-| P9 | Archon Shards | 🔶 |
-| P10 | Stats Panel Overhaul | ❌ |
-| P11 | Build Import/Export | ❌ |
-| F1 | Testing Foundation (~24h) | ❌ |
-| F2 | TypeScript Strictness (~25h) | ❌ |
-| F3 | Architecture & Code Quality (~23.5h) | 🔶 |
-| F4 | Build & Dev Experience (~9.5h) | 🔶 |
-| F5 | CI/CD & DevOps (~9h) | ❌ |
-| F6 | Documentation (~6.5h) | ❌ |
-| F7 | UI/UX Polish (~12.5h) | ❌ |
-| F8 | Maintenance & Security (~8.5h) | ❌ |
-| F9 | Performance (~5.5h) | ❌ |
+| P1–P11 | Core feature set (Polarity, UI, Set Bonuses, Rivens, Helminth, Exalted, Companions, CO/GS, Shards, StatsHUD, Import/Export) | ✅ |
+| F1–F2 | Testing foundation (366 tests) + TypeScript strict | ✅ |
+| F3 | Architecture (ADR-001 through ADR-004) | ✅ |
+| F4 | Build & Dev Experience (webpack, CI, lint-staged) | ✅ |
+| F5 | CI/CD (GitHub Actions, Dependabot, NSIS packaging) | ✅ |
+| F6 | Documentation (README, CHANGELOG, CONTRIBUTING, ADRs) | ✅ |
+| M17–M19 | Visual Platform (VisualManager, CardRenderer, RichTooltip, SkeletonLoader) | ✅ |
+| M20 | Production Hardening (0 ESLint errors, 96→0 warnings) | ✅ |
+| M21 | Engineering Excellence (100/100 score) | ✅ |
+| M22 | Rebrand (TennoDex → Forge) | ✅ |
+| M23 | Release Audit & Certification | ✅ |
+| M24 | Release Candidate preparation | ✅ |
 
 ---
 

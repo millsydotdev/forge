@@ -1,4 +1,4 @@
-# TennoDex Knowledge Base
+# Forge Knowledge Base
 
 **Authoritative source of truth for every Warframe gameplay mechanic in the engine.**
 

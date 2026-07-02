@@ -1,4 +1,4 @@
-# TennoDex / TennoCalc — Build Plan → 100%
+# Forge — Build Plan → 100%
 
 ## Legend
 - ✅ Done

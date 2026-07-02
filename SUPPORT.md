@@ -2,7 +2,7 @@
 
 ## Getting Help
 
-- **Documentation**: https://docs.millsydotdev.app
+- **Documentation**: https://github.com/millsydotdev/forge/tree/main/docs
 - **Issue Tracker**: https://github.com/millsydotdev/forge/issues
 - **Discord**: https://discord.gg/TVmaw9354z
 

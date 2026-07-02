@@ -47,3 +47,6 @@ desktop.ini
 *.tmp
 *.bak
 *.old
+
+# Platform-specific lockfile (regenerated per platform in CI)
+package-lock.json

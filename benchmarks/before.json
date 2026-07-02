@@ -1,0 +1,46 @@
+{
+  "generatedAt": "2026-07-02T17:33:33.852Z",
+  "version": "1.0.0.0",
+  "results": [
+    {
+      "benchmark": "Source Size",
+      "metric": "Total Size (KB)",
+      "value": 1208,
+      "fileCount": 282
+    },
+    {
+      "benchmark": "Largest Files",
+      "metric": "Top 5 (KB)",
+      "value": [
+        "data\\generated-stat-map.ts (40KB)",
+        "engine\\stat-processor\\index.ts (31KB)",
+        "data\\stat-mapping.ts (21KB)",
+        "features\\build-planner\\components\\calc-explorer\\StatExplorer.tsx (18KB)",
+        "features\\build-planner\\components\\hud-weapon-stats.tsx (16KB)"
+      ]
+    },
+    {
+      "benchmark": "Dependencies",
+      "metric": "Prod / Dev / Total",
+      "value": "6 / 30 / 36"
+    },
+    {
+      "benchmark": "Test Suite",
+      "metric": "Total tests",
+      "value": 366
+    },
+    {
+      "benchmark": "Analysis",
+      "metric": "ESLint errors / warnings",
+      "value": "0 / 96"
+    }
+  ],
+  "summary": {
+    "sourceFiles": 282,
+    "totalSizeKB": 1208,
+    "dependencyCount": 36,
+    "testCount": 366,
+    "eslintErrors": 0,
+    "eslintWarnings": 96
+  }
+}

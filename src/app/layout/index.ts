@@ -1,0 +1,12 @@
+export { TopBar } from './TopBar';
+export { LeftSidebar } from './LeftSidebar';
+export { CenterWorkspace } from './CenterWorkspace';
+export { RightInspector } from './RightInspector';
+export { BottomDrawer } from './BottomDrawer';
+export { DragHandle } from './DragHandle';
+export { ShortcutProvider } from './ShortcutProvider';
+export { GlobalSearch } from './GlobalSearch';
+export { StatusBar } from './StatusBar';
+export { PanelDock } from './PanelDock';
+export type { DockPanelDef } from './PanelDock';
+export { CommandPalette } from './CommandPalette';

@@ -1,0 +1,981 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-06-22T05:17:06.560Z",
+  "exaltedWeapons": {
+    "/Lotus/Powersuits/Pacifist/Pacifist": {
+      "name": "Desert Wind",
+      "slot": "melee"
+    },
+    "/Lotus/Powersuits/Pacifist/BaruukPrime": {
+      "name": "Desert Wind",
+      "slot": "melee"
+    },
+    "/Lotus/Powersuits/Excalibur/Excalibur": {
+      "name": "Exalted Blade",
+      "slot": "melee"
+    },
+    "/Lotus/Powersuits/Excalibur/ExcaliburPrime": {
+      "name": "Exalted Blade",
+      "slot": "melee"
+    },
+    "/Lotus/Powersuits/Excalibur/ExcaliburUmbra": {
+      "name": "Exalted Blade",
+      "slot": "melee"
+    },
+    "/Lotus/Powersuits/Garuda/Garuda": {
+      "name": "Talons",
+      "slot": "melee"
+    },
+    "/Lotus/Powersuits/Garuda/GarudaPrime": {
+      "name": "Talons",
+      "slot": "melee"
+    },
+    "/Lotus/Powersuits/Ranger/Ranger": {
+      "name": "Artemis Bow",
+      "slot": "primary"
+    },
+    "/Lotus/Powersuits/Ranger/IvaraPrime": {
+      "name": "Artemis Bow",
+      "slot": "primary"
+    },
+    "/Lotus/Powersuits/Cowgirl/Cowgirl": {
+      "name": "Regulators",
+      "slot": "secondary"
+    },
+    "/Lotus/Powersuits/Cowgirl/MesaPrime": {
+      "name": "Regulators",
+      "slot": "secondary"
+    },
+    "/Lotus/Powersuits/Wraith/Wraith": {
+      "name": "Shadow Claws",
+      "slot": "melee"
+    },
+    "/Lotus/Powersuits/Wraith/SevagothPrime": {
+      "name": "Shadow Claws",
+      "slot": "melee"
+    },
+    "/Lotus/Powersuits/Fairy/Fairy": {
+      "name": "Dex Pixia",
+      "slot": "secondary"
+    },
+    "/Lotus/Powersuits/Fairy/TitaniaPrime": {
+      "name": "Dex Pixia",
+      "slot": "secondary"
+    },
+    "/Lotus/Powersuits/Berserker/Berserker": {
+      "name": "Hysteria",
+      "slot": "melee"
+    },
+    "/Lotus/Powersuits/Berserker/ValkyrPrime": {
+      "name": "Hysteria",
+      "slot": "melee"
+    },
+    "/Lotus/Powersuits/MonkeyKing/MonkeyKing": {
+      "name": "Iron Staff",
+      "slot": "melee"
+    },
+    "/Lotus/Powersuits/MonkeyKing/WukongPrime": {
+      "name": "Iron Staff",
+      "slot": "melee"
+    }
+  },
+  "incarnonWeapons": [
+    "/Lotus/Weapons/ClanTech/Bio/BioWeapon",
+    "/Lotus/Weapons/Corpus/Melee/Glaive/CrpGhostCatcherGlaive/CrpGhostCatcherGlaive",
+    "/Lotus/Weapons/Corpus/Pistols/CorpusMinigun/DualCorpusMinigun",
+    "/Lotus/Weapons/Corpus/Pistols/CrpHandRL/CorpusHandRocketLauncher",
+    "/Lotus/Weapons/Corpus/Pistols/CrpHandRL/PrismaAngstrum",
+    "/Lotus/Weapons/Grineer/GrineerPistol/GrineerLightPistol",
+    "/Lotus/Weapons/Grineer/LongGuns/WraithGorgon/WraithGorgon",
+    "/Lotus/Weapons/Grineer/Melee/GrineerClaws/GrnClaws",
+    "/Lotus/Weapons/Grineer/Melee/GrineerCombatKnife/GrineerCombatKnife",
+    "/Lotus/Weapons/Grineer/Melee/GrnDualFireAxe/GrnDualFireAxe",
+    "/Lotus/Weapons/Grineer/Pistols/WraithSingleViper/WraithSingleViper",
+    "/Lotus/Weapons/Infested/Bow/InfCernosBow/InfCernos",
+    "/Lotus/Weapons/Infested/Melee/Swords/Mire/MireSword",
+    "/Lotus/Weapons/Infested/Melee/Whip/InfestedWhip/InfestedWhipWeapon",
+    "/Lotus/Weapons/MK1Series/MK1Bo",
+    "/Lotus/Weapons/MK1Series/MK1Furax",
+    "/Lotus/Weapons/MK1Series/MK1Furis",
+    "/Lotus/Weapons/MK1Series/MK1Paris",
+    "/Lotus/Weapons/MK1Series/MK1Strun",
+    "/Lotus/Weapons/Tenno/Akimbo/AkLexPistols",
+    "/Lotus/Weapons/Tenno/Akimbo/AkLexPrimePistols",
+    "/Lotus/Weapons/Tenno/Bows/HuntingBow",
+    "/Lotus/Weapons/Tenno/Bows/PrimeHuntingBow",
+    "/Lotus/Weapons/Tenno/Bows/StalkerBow",
+    "/Lotus/Weapons/Tenno/LongGuns/PrimeBoltor/PrimeBoltor",
+    "/Lotus/Weapons/Tenno/LongGuns/PrimeBurston/PrimeBurston",
+    "/Lotus/Weapons/Tenno/LongGuns/PrimeSoma/PrimeSomaRifle",
+    "/Lotus/Weapons/Tenno/LongGuns/PrimeStrun/PrimeStrunWeapon",
+    "/Lotus/Weapons/Tenno/LongGuns/PrimeVectis/PrimeVectisRifle",
+    "/Lotus/Weapons/Tenno/Melee/BrassKnuckles/BrassKnuckles",
+    "/Lotus/Weapons/Tenno/Melee/Claws/TennoClaws",
+    "/Lotus/Weapons/Tenno/Melee/CronusSword/PrimeCronusLongSword",
+    "/Lotus/Weapons/Tenno/Melee/Dagger/CeramicDagger",
+    "/Lotus/Weapons/Tenno/Melee/DualDagger/DualDagger",
+    "/Lotus/Weapons/Tenno/Melee/DualDagger/FangPrimeDagger",
+    "/Lotus/Weapons/Tenno/Melee/DualShortSword/DualEtherSword",
+    "/Lotus/Weapons/Tenno/Melee/Fist/Fist",
+    "/Lotus/Weapons/Tenno/Melee/Fist/FuraxWraith",
+    "/Lotus/Weapons/Tenno/Melee/Glaives/LightGlaive/LightGlaiveWeapon",
+    "/Lotus/Weapons/Tenno/Melee/Glaives/PrimeGlaive/PrimeGlaiveWeapon",
+    "/Lotus/Weapons/Tenno/Melee/Hammer/GlassHammer/GlassHammer",
+    "/Lotus/Weapons/Tenno/Melee/Hammer/IceHammer/IceHammer",
+    "/Lotus/Weapons/Tenno/Melee/LongSword/LongSword",
+    "/Lotus/Weapons/Tenno/Melee/LongSword/SkanaPrime",
+    "/Lotus/Weapons/Tenno/Melee/Maces/PaladinMace/PaladinMaceWeapon",
+    "/Lotus/Weapons/Tenno/Melee/Nunchaku/Nunchaku/Nunchaku",
+    "/Lotus/Weapons/Tenno/Melee/Polearms/PolearmWeapon",
+    "/Lotus/Weapons/Tenno/Melee/Polearms/PrimePolearmWeapon",
+    "/Lotus/Weapons/Tenno/Melee/PrimeKogake/KogakePrimeKnuckles",
+    "/Lotus/Weapons/Tenno/Melee/PrimeNinkondi/PrimeNikondi",
+    "/Lotus/Weapons/Tenno/Melee/PrimeVenKa/PrimeVenkaClaws",
+    "/Lotus/Weapons/Tenno/Melee/Scythe/ReaperWeapon",
+    "/Lotus/Weapons/Tenno/Melee/Scythe/StalkerScytheWeapon",
+    "/Lotus/Weapons/Tenno/Melee/Staff/PrimeBo/PrimeBoWeapon",
+    "/Lotus/Weapons/Tenno/Melee/Staff/Staff",
+    "/Lotus/Weapons/Tenno/Melee/Swords/JawSword/JawLongSword",
+    "/Lotus/Weapons/Tenno/Melee/Swords/KatanaAndWakizashi/LowKatana",
+    "/Lotus/Weapons/Tenno/Melee/Swords/PangolinSword/PangolinLongSword",
+    "/Lotus/Weapons/Tenno/Melee/Swords/PrimeOkina/PrimeOkina",
+    "/Lotus/Weapons/Tenno/Melee/Swords/TennoSai/TennoSais",
+    "/Lotus/Weapons/Tenno/Pistol/AutoPistol",
+    "/Lotus/Weapons/Tenno/Pistol/BroncoPrime",
+    "/Lotus/Weapons/Tenno/Pistol/HandShotGun",
+    "/Lotus/Weapons/Tenno/Pistol/HeavyPistol",
+    "/Lotus/Weapons/Tenno/Pistol/LatoPrime",
+    "/Lotus/Weapons/Tenno/Pistol/LatoVandal",
+    "/Lotus/Weapons/Tenno/Pistol/Pistol",
+    "/Lotus/Weapons/Tenno/Pistol/RevolverPistol",
+    "/Lotus/Weapons/Tenno/Pistols/DexFuris/DexFuris",
+    "/Lotus/Weapons/Tenno/Pistols/Magnum/Magnum",
+    "/Lotus/Weapons/Tenno/Pistols/PrimeLex/PrimeLex",
+    "/Lotus/Weapons/Tenno/Pistols/PrimeMagnus/PrimeMagnusWeapon",
+    "/Lotus/Weapons/Tenno/Pistols/PrimeVasto/PrimeVastoPistol",
+    "/Lotus/Weapons/Tenno/Rifle/BoltoRifle",
+    "/Lotus/Weapons/Tenno/Rifle/BratonPrime",
+    "/Lotus/Weapons/Tenno/Rifle/BurstRifle",
+    "/Lotus/Weapons/Tenno/Rifle/HeavyRifle",
+    "/Lotus/Weapons/Tenno/Rifle/Rifle",
+    "/Lotus/Weapons/Tenno/Rifle/TennoAR",
+    "/Lotus/Weapons/Tenno/Rifle/TennoSniperRifle",
+    "/Lotus/Weapons/Tenno/Rifle/VIPRifle",
+    "/Lotus/Weapons/Tenno/Shotgun/FullAutoShotgun",
+    "/Lotus/Weapons/Tenno/Shotgun/PrimeBoar",
+    "/Lotus/Weapons/Tenno/Shotgun/Shotgun",
+    "/Lotus/Weapons/Tenno/Shotgun/ShotgunVandal",
+    "/Lotus/Weapons/Tenno/ThrowingWeapons/Kunai",
+    "/Lotus/Weapons/Tenno/ThrowingWeapons/StalkerKunai",
+    "/Lotus/Weapons/VoidTrader/PrismaSkana"
+  ],
+  "helminthAbilities": [
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Rhino/Rhino",
+      "donorName": "Rhino",
+      "abilityName": "Roar",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Mirage/Mirage",
+      "donorName": "Mirage",
+      "abilityName": "Eclipse",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Nidus/Nidus",
+      "donorName": "Nidus",
+      "abilityName": "Larva",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Wukong/Wukong",
+      "donorName": "Wukong",
+      "abilityName": "Defy",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Grendel/Grendel",
+      "donorName": "Grendel",
+      "abilityName": "Nourish",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Kullervo/Kullervo",
+      "donorName": "Kullervo",
+      "abilityName": "Wrathful Advance",
+      "baseDamage": 500,
+      "scalingStat": "strength",
+      "scalingFactor": 1.5,
+      "damageType": "True"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Xaku/Xaku",
+      "donorName": "Xaku",
+      "abilityName": "Xata's Whisper",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Void"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Therid/Therid",
+      "donorName": "Therid",
+      "abilityName": "Molting",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Sevagoth/Sevagoth",
+      "donorName": "Sevagoth",
+      "abilityName": "Gloom",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Protea/Protea",
+      "donorName": "Protea",
+      "abilityName": "Dispensary",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Hildryn/Hildryn",
+      "donorName": "Hildryn",
+      "abilityName": "Pillage",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Titania/Titania",
+      "donorName": "Titania",
+      "abilityName": "Spellbind",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Ember/Ember",
+      "donorName": "Ember",
+      "abilityName": "Fire Blast",
+      "baseDamage": 400,
+      "scalingStat": "strength",
+      "scalingFactor": 1,
+      "damageType": "Heat"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Frost/Frost",
+      "donorName": "Frost",
+      "abilityName": "Ice Wave",
+      "baseDamage": 300,
+      "scalingStat": "strength",
+      "scalingFactor": 1,
+      "damageType": "Cold"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Loki/Loki",
+      "donorName": "Loki",
+      "abilityName": "Decoy",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Nekros/Nekros",
+      "donorName": "Nekros",
+      "abilityName": "Terrify",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Trinity/Trinity",
+      "donorName": "Trinity",
+      "abilityName": "Well of Life",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Nyx/Nyx",
+      "donorName": "Nyx",
+      "abilityName": "Mind Control",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Excalibur/Excalibur",
+      "donorName": "Excalibur",
+      "abilityName": "Radial Blind",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Mag/Mag",
+      "donorName": "Mag",
+      "abilityName": "Pull",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Magnetic"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Volt/Volt",
+      "donorName": "Volt",
+      "abilityName": "Shock",
+      "baseDamage": 200,
+      "scalingStat": "strength",
+      "scalingFactor": 1,
+      "damageType": "Electric"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Ash/Ash",
+      "donorName": "Ash",
+      "abilityName": "Seeking Shuriken",
+      "baseDamage": 300,
+      "scalingStat": "strength",
+      "scalingFactor": 1,
+      "damageType": "Slash"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Atlas/Atlas",
+      "donorName": "Atlas",
+      "abilityName": "Petrify",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Banshee/Banshee",
+      "donorName": "Banshee",
+      "abilityName": "Silence",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Chroma/Chroma",
+      "donorName": "Chroma",
+      "abilityName": "Elemental Ward",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Ivara/Ivara",
+      "donorName": "Ivara",
+      "abilityName": "Quiver",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Limbo/Limbo",
+      "donorName": "Limbo",
+      "abilityName": "Banish",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Mesa/Mesa",
+      "donorName": "Mesa",
+      "abilityName": "Shooting Gallery",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Oberon/Oberon",
+      "donorName": "Oberon",
+      "abilityName": "Smite",
+      "baseDamage": 350,
+      "scalingStat": "strength",
+      "scalingFactor": 1,
+      "damageType": "Radiation"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Saryn/Saryn",
+      "donorName": "Saryn",
+      "abilityName": "Molting",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Vauban/Vauban",
+      "donorName": "Vauban",
+      "abilityName": "Tesla Nervos",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Zephyr/Zephyr",
+      "donorName": "Zephyr",
+      "abilityName": "Airburst",
+      "baseDamage": 200,
+      "scalingStat": "strength",
+      "scalingFactor": 1,
+      "damageType": "Impact"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Hydroid/Hydroid",
+      "donorName": "Hydroid",
+      "abilityName": "Tempest Barrage",
+      "baseDamage": 250,
+      "scalingStat": "strength",
+      "scalingFactor": 1,
+      "damageType": "Blast"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Baruuk/Baruuk",
+      "donorName": "Baruuk",
+      "abilityName": "Lull",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Garuda/Garuda",
+      "donorName": "Garuda",
+      "abilityName": "Blood Altar",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Khora/Khora",
+      "donorName": "Khora",
+      "abilityName": "Ensnare",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Revenant/Revenant",
+      "donorName": "Revenant",
+      "abilityName": "Reave",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Octavia/Octavia",
+      "donorName": "Octavia",
+      "abilityName": "Metronome",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Gauss/Gauss",
+      "donorName": "Gauss",
+      "abilityName": "Thermal Sunder",
+      "baseDamage": 350,
+      "scalingStat": "strength",
+      "scalingFactor": 1,
+      "damageType": "Heat"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Equinox/Equinox",
+      "donorName": "Equinox",
+      "abilityName": "Rest & Rage",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Nezha/Nezha",
+      "donorName": "Nezha",
+      "abilityName": "Fire Walker",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Inaros/Inaros",
+      "donorName": "Inaros",
+      "abilityName": "Desiccation",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Wisp/Wisp",
+      "donorName": "Wisp",
+      "abilityName": "Reservoirs",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    },
+    {
+      "donorUniqueName": "/Lotus/Powersuits/Harrow/Harrow",
+      "donorName": "Harrow",
+      "abilityName": "Condemn",
+      "baseDamage": 0,
+      "scalingStat": "strength",
+      "scalingFactor": 0,
+      "damageType": "Buff"
+    }
+  ],
+  "focusSchools": [
+    {
+      "value": "madurai",
+      "label": "Madurai",
+      "passives": [
+        {
+          "stat": "strength",
+          "value": 0.2,
+          "description": "+20% Ability Strength"
+        },
+        {
+          "stat": "physical_damage",
+          "value": 0.2,
+          "description": "+20% Physical Damage"
+        }
+      ]
+    },
+    {
+      "value": "zenurik",
+      "label": "Zenurik",
+      "passives": [
+        {
+          "stat": "efficiency",
+          "value": 0.2,
+          "description": "+20% Ability Efficiency"
+        }
+      ]
+    },
+    {
+      "value": "naramon",
+      "label": "Naramon",
+      "passives": [
+        {
+          "stat": "combo_chance",
+          "value": 0.5,
+          "description": "+50% Combo Count Chance"
+        }
+      ]
+    },
+    {
+      "value": "unairu",
+      "label": "Unairu",
+      "passives": [
+        {
+          "stat": "armor",
+          "value": 200,
+          "description": "+200 Base Armor"
+        }
+      ]
+    },
+    {
+      "value": "vazarin",
+      "label": "Vazarin",
+      "passives": [
+        {
+          "stat": "health",
+          "value": 0.2,
+          "description": "+20% Health"
+        }
+      ]
+    }
+  ],
+  "squadBuffs": [
+    {
+      "name": "Roar",
+      "description": "Rhino Roar (+30% final damage)",
+      "modifiers": [
+        {
+          "stat": "faction_damage_all",
+          "value": 0.3,
+          "type": "MULTIPLIER"
+        }
+      ]
+    },
+    {
+      "name": "Eclipse",
+      "description": "Mirage Eclipse (+150% base damage)",
+      "modifiers": [
+        {
+          "stat": "base_damage",
+          "value": 1.5,
+          "type": "MULTIPLIER"
+        }
+      ]
+    },
+    {
+      "name": "Warcry",
+      "description": "Valkyr Warcry (+50% Armor, +50% AS)",
+      "modifiers": [
+        {
+          "stat": "armor",
+          "value": 0.5,
+          "type": "MULTIPLIER"
+        },
+        {
+          "stat": "attack_speed",
+          "value": 0.5,
+          "type": "MULTIPLIER"
+        }
+      ]
+    },
+    {
+      "name": "Xata's Whisper",
+      "description": "Xata's Whisper (+100% Void damage)",
+      "modifiers": [
+        {
+          "stat": "elemental_void",
+          "value": 1,
+          "type": "MULTIPLIER"
+        }
+      ]
+    },
+    {
+      "name": "Vex Armor",
+      "description": "Chroma Vex Armor (+350% armor, +275% dmg)",
+      "modifiers": [
+        {
+          "stat": "armor",
+          "value": 3.5,
+          "type": "MULTIPLIER"
+        },
+        {
+          "stat": "base_damage",
+          "value": 2.75,
+          "type": "MULTIPLIER"
+        }
+      ]
+    }
+  ],
+  "enemies": [
+    {
+      "name": "Heavy Gunner",
+      "faction": "Grineer",
+      "baseHealth": 700,
+      "baseShields": 0,
+      "baseArmor": 200,
+      "armorType": "Ferrite",
+      "healthType": "Cloned Flesh",
+      "shieldType": "None",
+      "weakness": [
+        "Corrosive",
+        "Slash",
+        "Viral"
+      ],
+      "resistance": [
+        "Impact",
+        "Gas",
+        "Electric"
+      ],
+      "immune": []
+    },
+    {
+      "name": "Bombard",
+      "faction": "Grineer",
+      "baseHealth": 500,
+      "baseShields": 0,
+      "baseArmor": 200,
+      "armorType": "Alloy",
+      "healthType": "Cloned Flesh",
+      "shieldType": "None",
+      "weakness": [
+        "Radiation",
+        "Slash"
+      ],
+      "resistance": [
+        "Corrosive",
+        "Toxin"
+      ],
+      "immune": []
+    },
+    {
+      "name": "Tech",
+      "faction": "Corpus",
+      "baseHealth": 300,
+      "baseShields": 800,
+      "baseArmor": 50,
+      "armorType": "Ferrite",
+      "healthType": "Flesh",
+      "shieldType": "Shield",
+      "weakness": [
+        "Magnetic",
+        "Toxin"
+      ],
+      "resistance": [
+        "Impact",
+        "Blast",
+        "Cold"
+      ],
+      "immune": []
+    },
+    {
+      "name": "Nox",
+      "faction": "Grineer",
+      "baseHealth": 1000,
+      "baseShields": 0,
+      "baseArmor": 100,
+      "armorType": "Ferrite",
+      "healthType": "Cloned Flesh",
+      "shieldType": "None",
+      "weakness": [
+        "Slash",
+        "Viral"
+      ],
+      "resistance": [
+        "Heat",
+        "Corrosive"
+      ],
+      "immune": [
+        "Toxin"
+      ]
+    },
+    {
+      "name": "Demolyst",
+      "faction": "Infested",
+      "baseHealth": 5000,
+      "baseShields": 500,
+      "baseArmor": 50,
+      "armorType": "Fossilized",
+      "healthType": "Infested Flesh",
+      "shieldType": "Shield",
+      "weakness": [
+        "Heat",
+        "Corrosive",
+        "Blast"
+      ],
+      "resistance": [
+        "Slash",
+        "Cold"
+      ],
+      "immune": [
+        "Viral"
+      ]
+    },
+    {
+      "name": "Eidolon Teralyst",
+      "faction": "Sentient",
+      "baseHealth": 15000,
+      "baseShields": 5000,
+      "baseArmor": 200,
+      "armorType": "Alloy",
+      "healthType": "Sentient",
+      "shieldType": "Shield",
+      "weakness": [
+        "Radiation",
+        "Void"
+      ],
+      "resistance": [
+        "All"
+      ],
+      "immune": [
+        "Slash",
+        "Puncture",
+        "Impact"
+      ]
+    },
+    {
+      "name": "Thrax Centurion",
+      "faction": "Orokin",
+      "baseHealth": 2000,
+      "baseShields": 1500,
+      "baseArmor": 100,
+      "armorType": "Ferrite",
+      "healthType": "Orokin",
+      "shieldType": "Shield",
+      "weakness": [
+        "Void",
+        "Toxin"
+      ],
+      "resistance": [
+        "All"
+      ],
+      "immune": []
+    },
+    {
+      "name": "Acolyte",
+      "faction": "Grineer",
+      "baseHealth": 1200,
+      "baseShields": 0,
+      "baseArmor": 50,
+      "armorType": "Ferrite",
+      "healthType": "Cloned Flesh",
+      "shieldType": "None",
+      "weakness": [
+        "Viral",
+        "Slash"
+      ],
+      "resistance": [
+        "Impact",
+        "Puncture"
+      ],
+      "immune": []
+    },
+    {
+      "name": "Eximus (Grineer)",
+      "faction": "Grineer",
+      "baseHealth": 1000,
+      "baseShields": 300,
+      "baseArmor": 150,
+      "armorType": "Ferrite",
+      "healthType": "Cloned Flesh",
+      "shieldType": "Shield",
+      "weakness": [
+        "Corrosive",
+        "Magnetic"
+      ],
+      "resistance": [
+        "Heat",
+        "Cold"
+      ],
+      "immune": []
+    },
+    {
+      "name": "Jade Light Eximus",
+      "faction": "Orokin",
+      "baseHealth": 1800,
+      "baseShields": 600,
+      "baseArmor": 100,
+      "armorType": "Alloy",
+      "healthType": "Orokin",
+      "shieldType": "Shield",
+      "weakness": [
+        "Void",
+        "Corrosive"
+      ],
+      "resistance": [
+        "Heat",
+        "Cold"
+      ],
+      "immune": []
+    }
+  ],
+  "shardDefs": [
+    {
+      "color": "crimson",
+      "label": "Strength",
+      "stats": [
+        {
+          "stat": "strength",
+          "value": 0.1,
+          "group": "ability",
+          "category": "MULTIPLIER"
+        }
+      ]
+    },
+    {
+      "color": "azure",
+      "label": "Armor",
+      "stats": [
+        {
+          "stat": "armor",
+          "value": 225,
+          "group": "warframe_armor",
+          "category": "FLAT"
+        }
+      ]
+    },
+    {
+      "color": "amber",
+      "label": "Cast Speed",
+      "stats": [
+        {
+          "stat": "energy",
+          "value": 0.075,
+          "group": "warframe_energy",
+          "category": "MULTIPLIER"
+        }
+      ]
+    },
+    {
+      "color": "violet",
+      "label": "Melee Crit",
+      "stats": [
+        {
+          "stat": "crit_damage",
+          "value": 0.1,
+          "group": "weapon_crit_damage",
+          "category": "MULTIPLIER"
+        }
+      ]
+    },
+    {
+      "color": "topaz",
+      "label": "Heat / Shields",
+      "stats": [
+        {
+          "stat": "elemental_heat",
+          "value": 0.25,
+          "group": "weapon_elemental",
+          "category": "MULTIPLIER"
+        },
+        {
+          "stat": "shields",
+          "value": 0.15,
+          "group": "warframe_shields",
+          "category": "MULTIPLIER"
+        }
+      ]
+    },
+    {
+      "color": "emerald",
+      "label": "Corrosive",
+      "stats": [
+        {
+          "stat": "elemental_corrosive",
+          "value": 0.25,
+          "group": "weapon_elemental",
+          "category": "MULTIPLIER"
+        }
+      ]
+    }
+  ]
+}

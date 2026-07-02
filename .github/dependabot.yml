@@ -1,0 +1,19 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 10
+    labels:
+      - "dependencies"
+    ignore:
+      - dependency-name: "typescript"
+        versions: ["<5.0"]
+      - dependency-name: "@typescript-eslint/*"
+        versions: ["<8.0"]
+      - dependency-name: "webpack"
+        versions: ["<5.75"]
+    commit-message:
+      prefix: "chore(deps)"

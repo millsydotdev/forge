@@ -1,0 +1,84 @@
+:root {
+  /* Surface Colors (Void Synthetic) */
+  --wf-bg:            #060608;
+  --wf-surface:       rgba(19, 19, 20, 0.92);
+  --wf-surface-solid: #0e0e0f;
+  --wf-panel:         rgba(32, 31, 32, 0.88);
+  --wf-panel-high:    rgba(42, 41, 42, 0.80);
+  --wf-panel-active:  rgba(53, 52, 54, 0.90);
+  --wf-border:        rgba(132, 148, 149, 0.22);
+  --wf-border-bright: rgba(0, 242, 255, 0.45);
+  --wf-border-active: rgba(0, 242, 255, 0.65);
+
+  /* Accent Colors */
+  --wf-teal:          #00f2ff;
+  --wf-teal-ui:       #00dbe7;
+  --wf-teal-soft:     rgba(0, 242, 255, 0.10);
+  --wf-teal-glow:     rgba(0, 242, 255, 0.20);
+
+  --wf-gold:          #ffba30;
+  --wf-gold-accent:   #ffdeab;
+  --wf-gold-dim:      rgba(255, 186, 48, 0.35);
+  --wf-gold-glow:     rgba(255, 186, 48, 0.18);
+
+  --wf-purple:        #b347ff;
+  --wf-purple-soft:   rgba(179, 71, 255, 0.10);
+  --wf-purple-glow:   rgba(179, 71, 255, 0.20);
+
+  --wf-red:           #ffb4ab;
+  --wf-red-ui:        #93000a;
+  --wf-red-soft:      rgba(255, 180, 171, 0.12);
+
+  --wf-blue:          #5098e0;
+  --wf-green:         #50d080;
+  --wf-green-ui:      #4ad94a;
+  --wf-green-soft:    rgba(80, 208, 128, 0.12);
+  --wf-orange:        #e87a30;
+
+  /* Text Colors */
+  --wf-text:          #e5e2e3;
+  --wf-text-dim:      #b9cacb;
+  --wf-text-muted:    #849495;
+
+  /* Rarity Colors */
+  --rarity-common:    #a07050;
+  --rarity-uncommon:  #9099aa;
+  --rarity-rare:      #ffba30;
+  --rarity-legendary: #d0d8e8;
+
+  /* Typography */
+  --font-display: 'Archivo Narrow', sans-serif;
+  --font-body:    'Inter', sans-serif;
+  --font-mono:    'JetBrains Mono', monospace;
+
+  /* Layout Grid (DESIGN.md) */
+  --col-left:   280px;
+  --col-right:  320px;
+  --header-h:   44px;
+  --bottom-h:   160px;
+  --pad:        6px;
+  --gap:        12px;
+
+  /* Component Dimensions (DESIGN.md) */
+  --mod-width:  160px;
+  --mod-height: 220px;
+
+  /* Elevation & Depth */
+  --elevation-1: 0 1px 2px rgba(0,0,0,0.3), 0 1px 4px rgba(0,0,0,0.2);
+  --elevation-2: 0 2px 8px rgba(0,0,0,0.4), 0 1px 3px rgba(0,0,0,0.3);
+  --elevation-3: 0 4px 16px rgba(0,0,0,0.5), 0 2px 6px rgba(0,0,0,0.3);
+  --elevation-4: 0 8px 32px rgba(0,0,0,0.6), 0 4px 12px rgba(0,0,0,0.4);
+
+  /* Z-Index */
+  --z-base:     1;
+  --z-hover:    5;
+  --z-dropdown: 50;
+  --z-drawer:   80;
+  --z-modal:    100;
+  --z-toast:    200;
+
+  /* Transitions */
+  --transition-fast:   120ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow:   300ms cubic-bezier(0.4, 0, 0.2, 1);
+}

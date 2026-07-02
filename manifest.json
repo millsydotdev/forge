@@ -1,0 +1,53 @@
+{
+  "manifest_version": 1,
+  "type": "WebApp",
+  "meta": {
+    "name": "Forge",
+    "author": "millsydotdev",
+    "version": "1.0.0-rc.1",
+    "description": "Warframe theory-crafting build planner",
+    "icon": "IconMouseOver.png",
+    "icon_gray": "IconMouseNormal.png",
+    "launcher_icon": "launcher_icon.ico",
+    "splash_image": "splashIcon.png",
+    "window_icon": "windowIcon.png"
+  },
+    "permissions": [
+      "GameInfo",
+      "Hotkeys",
+      "Ad"
+    ],
+  "data": {
+    "game_events": [8954],
+    "game_targeting": {
+      "type": "dedicated",
+      "game_ids": [8954]
+    },
+    "start_window": "background",
+    "enable_top_isolation": true,
+    "windows": {
+      "background": {
+        "file": "windows/background/background.html",
+        "is_background_page": true,
+        "block_top_window_navigation": true
+      },
+      "main": {
+        "file": "index.html",
+        "resizable": true,
+        "use_os_windowing": true,
+        "block_top_window_navigation": true,
+        "size": {
+          "width": 960,
+          "height": 680
+        },
+        "min_size": {
+          "width": 760,
+          "height": 520
+        }
+      }
+    },
+    "ad_slots": [
+      { "id": "sidebar", "size": "300x60" }
+    ],
+  }
+}

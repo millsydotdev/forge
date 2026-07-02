@@ -1,0 +1,49 @@
+.runtime/
+node_modules/
+dist/
+release/
+*.log
+*.err
+.sigmashake/rules/autopilot.rules
+# @wfcd/mod-generator asset symlinks/copies
+genesis-assets/
+assets/fonts/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated reports
+coverage-report.json
+code.html
+
+# Agent/editor config (personal)
+.opencode/
+.sigmashake/
+.codex/
+
+# Overwolf
+ow-electron.err
+ow-electron.log
+*.err
+*.log
+
+# Coverage
+coverage/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp
+*.tmp
+*.bak
+*.old

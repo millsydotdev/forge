@@ -53,7 +53,7 @@
     "format": "prettier --write src/",
     "typecheck": "tsc --noEmit",
     "analyze": "npm run build:prod && npx source-map-explorer 'dist/renderer/*.js'",
-    "ci": "npm run lint && npm run typecheck && npm run test:coverage && npm run build",
+    "ci": "npm run lint && npm run typecheck && npm run test && npm run build",
     "prepare": "husky"
   },
   "lint-staged": {

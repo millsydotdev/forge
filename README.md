@@ -29,7 +29,7 @@ A professional theorycrafting tool for Warframe. Plan, calculate, and share comp
 
 ```bash
 # Install dependencies
-npm ci
+npm install
 
 # Update game data (from WFCD)
 npm run update-data

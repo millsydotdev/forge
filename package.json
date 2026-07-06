@@ -99,7 +99,7 @@
   },
   "dependencies": {
     "@wfcd/items": "^1.1273.26",
-    "@wfcd/mod-generator": "^1.0.2",
+    "@wfcd/mod-generator": "^1.0.4",
     "dexie": "^4.4.4",
     "react": "^19.2.7",
     "react-dom": "^19.2.7",

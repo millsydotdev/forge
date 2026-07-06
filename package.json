@@ -98,7 +98,7 @@
     "webpack-merge": "^6.0.1"
   },
   "dependencies": {
-    "@wfcd/items": "^1.1273.26",
+    "@wfcd/items": "^1.1275.0",
     "@wfcd/mod-generator": "^1.0.2",
     "dexie": "^4.4.4",
     "react": "^19.2.7",
